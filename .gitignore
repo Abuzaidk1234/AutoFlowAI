@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+open-mcp-client/agent/sample_agent.egg-info/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+open-mcp-client/agent/autoflow.db
+open-mcp-client/agent/autoflow_memory.db
+
+# User Data & Storage
+AutoFlowElectron/AutoFlowData/
+AutoFlowElectron/org_filesystem/
+open-mcp-client/agent/chroma_db/
+open-mcp-client/agent/org_filesystem/
+
+# Build Outputs
+.next/
+dist/
+build/
+out/
+*.exe
+
+# Logs
+logs/
+*.log
